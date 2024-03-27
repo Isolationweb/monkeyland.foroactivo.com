@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    -webkipset-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+	}
+
+#header #mToggleArrow {
+    z-index: 10000 !important;
+	}
+
+/* ----------------------------
+----------- OVERALL_HEADER - CABEZA DE PÁGINA
+-----------------------------*/
+/*Fondo de la página*/
+body {
+    height: auto;
+    background-color: #111 !important;
+    background-image: url(https://i.servimg.com/u/f63/20/54/66/82/fondo_10.jpg);
+    background-attachment: fixed;
+    margin: 20px auto 20px auto !important;
+    padding: 0 0px !important;
+    color: #9C9C9C !important;
+    font-family: 'Lato' !important;
+    font-size: 10px;
+	}
+
+/*Fondo de todo el contenido*/
+#wrap {
+   /* max-width: 1240px;*/
+    min-width: 950px !important;
+    width: auto;
+    margin: 10px auto 0px auto !important;
+    background-color: transparent;
+    border: none;
+    padding: 10px 0px;
+	}
+
+/*Cuerpo de la cabecera*/
+#page-header {
+    display: block;
+    height: 600px !important;
+    background-color: transparent;
+    padding: 0px;
+    /*max-width: 1200px;*/
+    min-width: 950px;
+    max-height: 750px;
+    background-image: url("https://i.servimg.com/u/f63/20/54/66/82/6ivspq10.png");
+    background-repeat: repeat;
+	text-align: center;
+	}
+
+.headerbar {
+    display: inline-block;
+    width: 100%;
+	height: 500px;
+    min-width: 900px;
+    min-height: 450px;
+    max-height: 750px;
+    background-color: transparent !important;
+    background-image: /*url("https://i.servimg.com/u/f63/20/54/66/82/isolat10.gif")*/;
+    background-position: center 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 20px !important;
+	}
+
+/*Cuerpo de el inicio y fin de la página*/
+#page-body {    
+	max-width: 1200px;
+	min-width: 950px;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FEFEFE;
+    background: url("https://i.servimg.com/u/f63/20/54/66/82/6ivspq10.png") repeat;
+	}
+
+#page-footer {
+    margin: auto;
+    padding: 25px;
+    background-color: #121212;
+	}
+
+#content-container div#content {
+    margin-right: 0px;
+	}
+
+/* ----------------------------
+----------- ESTILO DE LINKS
+-----------------------------*/
+/* link sin visitar*/
+a:link {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    text-decoration: none !important;
+    text-shadow: -1.5px -1.5px 0px transparent;
+    transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+	}
+
+a:hover {
+    color: #DD2F3A;
+    text-decoration: none !important;
+    text-shadow: -.1em -.1em 0px rgba(221,47,58,.3) ;
+	}
+
+/*HOVER DE USUARIOS*/
+a.gensmall, a span strong {
+    text-shadow: none;
+    transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+	}
+
+b a.gensmall:hover, a:hover span strong {
+    text-shadow: none;
+	}
+
