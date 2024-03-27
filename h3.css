@@ -57,7 +57,7 @@ div.forabg li.row.ON h2.hierarchy, sup.ON {color: #FFFFFF !important;}
 			a.forumtitle:hover sup.ON {text-shadow: -.1em -.1em 0px rgba(255,255,255,0.3);}
 			div.forabg li.row.ON a.forumtitle sub.ON {color: #FFFFFF !important;}
 			a.forumtitle:hover sup.ON {text-shadow: -.1em -.1em 0px rgba(255,255,255,0.3);}
-	
+	ul.forums dd, ul.topiclist dd.
 	div.forabg li.row dd.topics, 
 	div.forabg li.row div dd.posts, {
 		width: min-content;
