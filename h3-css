@@ -1,3 +1,4 @@
+
 div.forabg ul.topiclist.forums {
 	width: 910px;
 	margin: auto;
@@ -57,12 +58,10 @@ div.forabg li.row.ON h2.hierarchy, sup.ON {color: #FFFFFF !important;}
 			div.forabg li.row.ON a.forumtitle sub.ON {color: #FFFFFF !important;}
 			a.forumtitle:hover sup.ON {text-shadow: -.1em -.1em 0px rgba(255,255,255,0.3);}
 	
-	li.row div dd.topics, 
-	li.row div dd.posts, #topics, *[@id="topics"], document.querySelector("#topics") {
-		display: block;
-		unicode-bidi:normal;
+	li.row dd.topics, 
+	li.row div dd.posts, {
 		width: min-content;
-		min-width: 400px;
+		min-width: 200px;
 		margin: 0px 0px 0px 0px;
 		color: #525252;
 		font-family: 'Montserrat';
@@ -299,6 +298,7 @@ div.forabg li.row.ON {
 
 /*.Categoria*/
 .forabg[data-title*="—"] .row .lastpost .gensmall:before {
+
     color: #9C9C9C;}
 
 /*.Categoria*/
