@@ -58,8 +58,8 @@ div.forabg li.row.ON h2.hierarchy, sup.ON {color: #FFFFFF !important;}
 			div.forabg li.row.ON a.forumtitle sub.ON {color: #FFFFFF !important;}
 			a.forumtitle:hover sup.ON {text-shadow: -.1em -.1em 0px rgba(255,255,255,0.3);}
 	
-	li.row dd.topics, 
-	li.row div dd.posts, {
+	div.forabg li.row dd.topics, 
+	div.forabg li.row div dd.posts, {
 		width: min-content;
 		min-width: 200px;
 		margin: 0px 0px 0px 0px;
@@ -71,9 +71,9 @@ div.forabg li.row.ON h2.hierarchy, sup.ON {color: #FFFFFF !important;}
 		text-transform: uppercase;
 		text-align: center;
 		letter-spacing: 5px;}
-		ul.topiclist dfn,  
-		li.row dd.topics > dfn,
-		li.row dd.posts > dfn {display: inline-block; font-style: normal;}
+	div.forabg ul.topiclist.forums dfn,  
+	div.forabg ul.topiclist.forums li.row dd.topics > dfn,
+	div.forabg ul.topiclist.forums li.row dd.posts > dfn {display: inline-block; font-style: normal;}
 
 	div.forabg.Categoria li.row dd.dterm > div, .description {
 	display: table-cell;
